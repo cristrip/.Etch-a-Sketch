@@ -1,0 +1,28 @@
+
+.container{
+   display: flex;
+   
+}
+.cell {
+    
+    width:16px;
+    height:16px;
+    border: 1px solid black;
+}
+.cell:hover {
+    background:  pink;
+    /* backdrop-filter: blur(3px); */
+}
+button {
+    border:2px solid #a1d66d;
+    border-radius: 8px;
+    background: rgb(32, 113, 226);
+    color: #F9FAF8;
+    padding: 8px 32px;
+    
+  }
+.button:hover {
+    color: var(--clr-white);
+    background: var(--clr-black);
+  }
+ 
